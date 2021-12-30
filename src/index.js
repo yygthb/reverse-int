@@ -6,5 +6,5 @@ module.exports = function reverse(n) {
     reversedString += numToString[i];
   }
 
-  return reversedString;
+  return +reversedString;
 };
